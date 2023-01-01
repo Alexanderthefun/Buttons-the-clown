@@ -1,0 +1,61 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Leslie"
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": 1,
+      "clownId": 1,
+      "date": 1671223110683,
+      "id": 1
+    },
+    {
+      "reservationId": 2,
+      "clownId": 1,
+      "date": 1671223451777,
+      "id": 2
+    },
+    {
+      "reservationId": 3,
+      "clownId": 1,
+      "date": 1671225054120,
+      "id": 3
+    }
+  ],
+  "reservations": [
+    {
+      "parentName": {},
+      "childName": {},
+      "partyAddress": {},
+      "attendeeCount": {},
+      "partyDate": {},
+      "jobHours": {},
+      "id": 1
+    },
+    {
+      "parentName": "joe",
+      "childName": "joe jr",
+      "partyAddress": "joe dr",
+      "attendeeCount": "12",
+      "partyDate": "2022-02-22",
+      "jobHours": "12",
+      "id": 2
+    },
+    {
+      "parentName": "sal",
+      "childName": "sal jr",
+      "partyAddress": "123 foof",
+      "attendeeCount": "12",
+      "partyDate": "1990-01-22",
+      "jobHours": "12",
+      "id": 3
+    }
+  ]
+}
